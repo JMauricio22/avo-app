@@ -1,6 +1,6 @@
 # Avo App
 ![Avo App Demo](./public/demo.png)
-Es un sitio web de Ecommerce inspirada en el [curso de Nextjs de platzi](https://platzi.com/clases/next/) al cual se le agregaron funciones extra.
+Es un sitio web de Ecommerce inspirada en el [curso de Nextjs de platzi](https://platzi.com/clases/next/) al cual se le agregaron funciones extra, como la posibilidad de hacer pagos a través de tarjetas de crédito utilizando la plataforma [Stripe](https://stripe.com/).
 
 ## Proyecto
 [Deploy 🚀]()
@@ -19,6 +19,7 @@ Es un sitio web de Ecommerce inspirada en el [curso de Nextjs de platzi](https:/
 - [Nextjs](https://nextjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Semantic UI ](https://react.semantic-ui.com/)
+- [Stripe](https://stripe.com/)
 
 ## Instalación y uso
 

@@ -4,7 +4,7 @@ import ProductSummary from '@components/ProductSummary/Index';
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_HOST}/api/products/${params.id}`
+    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/products/${params.id}`
   );
   const product: TProduct = await response.json();
   return {
